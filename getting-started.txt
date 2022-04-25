@@ -1,0 +1,30 @@
+# Getting Set Up
+
+Start up Anaconda prompt
+
+To create a virtual environment called sandbox:
+
+conda create -n sandbox python=3.9
+
+conda activate sandbox
+
+pip install streamlit
+
+
+conda activate sandbox
+steamlit myapp
+
+or
+streamlit hello
+
+Voice option:
+create go.bat:
+conda activate sandbox
+streamlit run myappname.py
+
+Put in a batch file:
+cd %USERPROFILE%\Documents\GitHub\streamlit-play
+conda run -n sandbox streamlit run app.py
+
+NOTE:
+To stop the streamlit server, leave the app browser open, go to the command line that spawned it, and hit Ctrl-C twice
