@@ -1,5 +1,9 @@
 # Getting Set Up
 
+
+
+(Old instructions, using virtual environments)
+
 Start up Anaconda prompt
 
 To create a virtual environment called sandbox:
